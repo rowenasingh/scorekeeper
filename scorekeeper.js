@@ -53,4 +53,10 @@ displaymaxscore.innerHTML = 5;
 maxscore.value = 5;
 maxscore.addEventListener("change", function() {
 	displaymaxscore.innerHTML = maxscore.value;
+	p1initialscore = 0;
+	p2initialscore = 0;
+	p1score.innerHTML = p1initialscore;
+	p2score.innerHTML = p2initialscore;
+	p1score.style.color = "black";
+	p2score.style.color = "black";
 });
